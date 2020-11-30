@@ -7,16 +7,22 @@ body {
 }
 
 .title {
-  margin-top: 20px;
+  margin-top: 20%;
   text-align: center;
   font-weight: bold;
+  font-size: 4rem;
 }
 .title-xl {
-  margin-top: 15%;
-  margin-bottom: 20px;
+  margin-top: 10%;
   text-align: center;
   font-weight: bold;
   font-size: 5rem;
+}
+.text {
+  margin-top: 10%;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 2rem;
 }
 .content {
   text-align: center;
@@ -28,11 +34,6 @@ body {
   width: 100%;
   display: flex;
   flex-flow: column wrap;
-}
-.imgs {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .component.first-component {
@@ -48,4 +49,27 @@ body {
 
 .component.second-component {
   background-color: pink;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin-right: 0;
+}
+
+.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
 }

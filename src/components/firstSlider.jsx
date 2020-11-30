@@ -4,7 +4,7 @@ const First = () => {
   return (
     <div className="component first-component">
       <h1 className="title">Hola amor</h1>
-      <div className="content">Se que aveces</div>
+      <h1 className="content">⬇️</h1>
     </div>
   );
 };
